@@ -9,6 +9,15 @@
 <style>
 :root{--bg:#080a16;--panel:#11152a;--panel2:#151a33;--purple:#8b5cf6;--blue:#36c5ff;--text:#f5f7ff;--muted:#a8b0cf;--line:rgba(154,165,255,.17);--glow:0 0 36px rgba(115,82,255,.2)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 0%,rgba(101,57,217,.19),transparent 36%),radial-gradient(ellipse at 92% 22%,rgba(0,174,255,.13),transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}.nav{position:sticky;top:0;z-index:10;background:rgba(8,10,22,.8);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.2px}.logo{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--purple),var(--blue));box-shadow:0 0 25px #7656f566;font-size:22px}.links{display:flex;gap:25px;color:var(--muted);font-size:14px}.links a:hover{color:white}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 19px;border-radius:13px;background:linear-gradient(110deg,#7851f4,#338df5);font-weight:800;border:1px solid #ffffff24;box-shadow:0 9px 30px #5e4ee52a;transition:.2s transform,.2s filter}.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.btn.ghost{background:#ffffff08;box-shadow:none;border:1px solid var(--line)}.hero{padding:86px 0 66px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:54px;min-height:590px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #8c70ff55;background:#6d4aff16;border-radius:99px;padding:7px 12px;color:#c9bbff;font-size:12px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}.dot{width:7px;height:7px;background:#65f6c2;border-radius:50%;box-shadow:0 0 12px #65f6c2}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.04;letter-spacing:-2.8px;margin:22px 0}.gradient{background:linear-gradient(95deg,#b49aff 5%,#5edaff 75%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{font-size:17px;color:var(--muted);max-width:570px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.mini-stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:35px}.mini-stats strong{display:block;font-size:20px}.mini-stats span{color:var(--muted);font-size:12px}.visual{position:relative;padding:20px;border:1px solid #9e8aff36;border-radius:28px;background:linear-gradient(145deg,#171a35dd,#0d1023ee);box-shadow:var(--glow);overflow:hidden}.visual:before{content:"";position:absolute;width:240px;height:240px;border-radius:50%;background:#6651ff2b;filter:blur(30px);top:-100px;right:-70px}.visualtop{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}.pill{font-size:11px;color:#9fffe1;border:1px solid #5bffd044;background:#54ffc00d;padding:5px 9px;border-radius:99px}.widget{position:relative;margin-top:18px;background:#0b0d19;border:1px solid var(--line);border-radius:17px;padding:14px;overflow:hidden}.widget iframe{display:block;width:100%;height:440px;border:0;border-radius:10px;background:#111}.widget-note{color:var(--muted);font-size:12px;margin:10px 2px 0}.section{padding:70px 0}.sectionhead{max-width:680px;margin-bottom:28px}.kicker{color:#8fdfff;text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:11px}.section h2{font-size:clamp(28px,4vw,42px);line-height:1.15;letter-spacing:-1px;margin:9px 0 12px}.sectionhead p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:23px;border-radius:19px;background:linear-gradient(145deg,#171b35cc,#101326cc);border:1px solid var(--line);transition:.22s transform,.22s border-color}.card:hover{transform:translateY(-4px);border-color:#7f6cff88}.ico{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#8157f433,#31c9ff25);font-size:22px}.card h3{margin:17px 0 7px}.card p{color:var(--muted);font-size:14px;margin:0}.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.channel{display:flex;align-items:center;gap:11px;padding:13px 15px;border-radius:12px;background:#ffffff05;border:1px solid var(--line);color:#e4e8ff}.hash{color:#7f8ba9;font-weight:900;font-size:18px}.tag{margin-left:auto;color:#9eaccc;font-size:10px}.botlabel{display:inline-block;margin-top:12px;color:#cabdff;font-size:11px;border:1px solid #8a69ff55;border-radius:7px;padding:4px 7px}.goal{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding:28px;border:1px solid #8e75ff55;border-radius:22px;background:linear-gradient(110deg,#5c40c51c,#16a5d31a)}.goal strong{font-size:28px}.goal p{margin:4px 0 0;color:var(--muted)}.progress{height:8px;background:#ffffff12;border-radius:99px;overflow:hidden;margin-top:15px}.progress span{display:block;width:0;height:100%;background:linear-gradient(90deg,var(--purple),var(--blue))}.rules{counter-reset:rule}.rule{display:flex;gap:13px;padding:15px 0;border-bottom:1px solid var(--line)}.rule:last-child{border-bottom:0}.rule b{color:#a895ff}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px}.footerin{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.muted{color:var(--muted)}.notice{font-size:12px;color:var(--muted);margin-top:13px}.fade{animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:55px;gap:30px}.grid{grid-template-columns:repeat(2,1fr)}.channels{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.hero{padding:45px 0}.hero h1{letter-spacing:-1.5px}.grid,.channels{grid-template-columns:1fr}.section{padding:48px 0}.widget{padding:9px}.widget iframe{height:420px}.mini-stats{gap:18px}.navin{height:66px}.brand{font-size:14px}.nav .btn{padding:10px 12px;font-size:12px}}
+
+
+/* Floating licensed music player */
+.music-control{position:fixed;right:18px;bottom:18px;z-index:31;display:flex;align-items:center;gap:10px;padding:12px 16px;border:1px solid #9c8aff88;border-radius:999px;background:linear-gradient(115deg,#201746f5,#09233af5);color:#fff;font:700 14px/1.2 inherit;box-shadow:0 0 28px #7656f566;backdrop-filter:blur(14px);cursor:pointer;transition:transform .2s,filter .2s}
+.music-control:hover{transform:translateY(-3px);filter:brightness(1.12)}.music-control .music-icon{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--purple),var(--blue));font-size:15px}.music-status{font-size:11px;color:#b9c8ff;font-weight:600}.music-control:focus-visible{outline:2px solid white;outline-offset:3px}
+.music-panel{position:fixed;right:18px;bottom:82px;z-index:30;width:min(360px,calc(100vw - 28px));padding:12px;border:1px solid #9c8aff88;border-radius:18px;background:linear-gradient(145deg,#17112ff5,#081b2bf5);box-shadow:0 0 32px #7656f566;backdrop-filter:blur(14px);display:none}
+.music-panel.open{display:block}.music-panel-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 2px 10px;font-size:13px;font-weight:800}.music-panel iframe{display:block;width:100%;height:152px;border:0;border-radius:12px}
+@media(max-width:560px){.music-control{right:12px;bottom:12px;padding:10px 13px}.music-status{display:none}.music-panel{right:12px;bottom:72px}}
+
 </style>
 </head>
 <body>
@@ -82,8 +91,38 @@
 </div></section>
 </main>
 <footer class="footer"><div class="wrap footerin"><a class="brand" href="#home"><span class="logo">✦</span><span>DISCORD COMMUNITY</span></a><span>Thiết kế gaming neon tím xanh · Community first</span><a href="https://discord.gg/PMyWxzq6s" target="_blank" rel="noopener">discord.gg/PMyWxzq6s ↗</a></div></footer>
+<!-- Trình phát nhạc chính thức: Tinh Vệ (精卫) trên Spotify. Người dùng tự nhấn Play trong trình phát. -->
+<div class="music-panel" id="musicPanel" aria-hidden="true">
+  <div class="music-panel-head">
+    <span>🎵 TINH VỆ · SPOTIFY</span>
+    <span class="muted" style="font-size:11px;font-weight:600">Nhấn Play để nghe</span>
+  </div>
+  <iframe
+    src="https://open.spotify.com/embed/track/6HAywZXw1kSTw3sS2jVvfT?utm_source=generator"
+    title="Tinh Vệ trên Spotify"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"></iframe>
+</div>
+<button class="music-control" id="musicToggle" type="button" aria-expanded="false" aria-controls="musicPanel" aria-label="Mở trình phát nhạc Tinh Vệ">
+  <span class="music-icon" id="musicIcon">♫</span>
+  <span><span id="musicLabel">Mở nhạc Tinh Vệ</span><br><span class="music-status" id="musicStatus">SPOTIFY · STREAM</span></span>
+</button>
 <script>
-const observer = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.style.opacity=1;e.target.style.transform='translateY(0)';observer.unobserve(e.target)}}),{threshold:.08});
+const musicToggle = document.getElementById('musicToggle');
+const musicPanel = document.getElementById('musicPanel');
+const musicIcon = document.getElementById('musicIcon');
+const musicLabel = document.getElementById('musicLabel');
+const musicStatus = document.getElementById('musicStatus');
+musicToggle.addEventListener('click', () => {
+  const isOpen = musicPanel.classList.toggle('open');
+  musicToggle.setAttribute('aria-expanded', String(isOpen));
+  musicPanel.setAttribute('aria-hidden', String(!isOpen));
+  musicToggle.setAttribute('aria-label', isOpen ? 'Đóng trình phát nhạc Tinh Vệ' : 'Mở trình phát nhạc Tinh Vệ');
+  musicIcon.textContent = isOpen ? '×' : '♫';
+  musicLabel.textContent = isOpen ? 'Đóng trình phát' : 'Mở nhạc Tinh Vệ';
+  musicStatus.textContent = isOpen ? 'PLAYER · OPEN' : 'SPOTIFY · STREAM';
+});
+const observer = new IntersectionObserver(entries => entries.forEach(e => {if(e.isIntersecting){e.target.style.opacity=1;e.target.style.transform='translateY(0)';observer.unobserve(e.target)}}),{threshold:.08});
 document.querySelectorAll('.card,.channel,.goal').forEach(el=>{el.style.opacity=0;el.style.transform='translateY(12px)';el.style.transition='opacity .5s ease,transform .5s ease';observer.observe(el)});
 </script>
 </body></html>
