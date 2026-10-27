@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b18">
+<title>Discord Community | Gaming Beyond Limits</title>
+<meta name="description" content="Khám phá Discord Community — nơi game thủ kết nối, giao lưu và tham gia sự kiện cộng đồng.">
+<style>
+:root{--bg:#080a16;--panel:#11152a;--panel2:#151a33;--purple:#8b5cf6;--blue:#36c5ff;--text:#f5f7ff;--muted:#a8b0cf;--line:rgba(154,165,255,.17);--glow:0 0 36px rgba(115,82,255,.2)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 0%,rgba(101,57,217,.19),transparent 36%),radial-gradient(ellipse at 92% 22%,rgba(0,174,255,.13),transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}.nav{position:sticky;top:0;z-index:10;background:rgba(8,10,22,.8);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.2px}.logo{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--purple),var(--blue));box-shadow:0 0 25px #7656f566;font-size:22px}.links{display:flex;gap:25px;color:var(--muted);font-size:14px}.links a:hover{color:white}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 19px;border-radius:13px;background:linear-gradient(110deg,#7851f4,#338df5);font-weight:800;border:1px solid #ffffff24;box-shadow:0 9px 30px #5e4ee52a;transition:.2s transform,.2s filter}.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.btn.ghost{background:#ffffff08;box-shadow:none;border:1px solid var(--line)}.hero{padding:86px 0 66px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:54px;min-height:590px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #8c70ff55;background:#6d4aff16;border-radius:99px;padding:7px 12px;color:#c9bbff;font-size:12px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}.dot{width:7px;height:7px;background:#65f6c2;border-radius:50%;box-shadow:0 0 12px #65f6c2}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.04;letter-spacing:-2.8px;margin:22px 0}.gradient{background:linear-gradient(95deg,#b49aff 5%,#5edaff 75%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{font-size:17px;color:var(--muted);max-width:570px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.mini-stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:35px}.mini-stats strong{display:block;font-size:20px}.mini-stats span{color:var(--muted);font-size:12px}.visual{position:relative;padding:20px;border:1px solid #9e8aff36;border-radius:28px;background:linear-gradient(145deg,#171a35dd,#0d1023ee);box-shadow:var(--glow);overflow:hidden}.visual:before{content:"";position:absolute;width:240px;height:240px;border-radius:50%;background:#6651ff2b;filter:blur(30px);top:-100px;right:-70px}.visualtop{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}.pill{font-size:11px;color:#9fffe1;border:1px solid #5bffd044;background:#54ffc00d;padding:5px 9px;border-radius:99px}.widget{position:relative;margin-top:18px;background:#0b0d19;border:1px solid var(--line);border-radius:17px;padding:14px;overflow:hidden}.widget iframe{display:block;width:100%;height:440px;border:0;border-radius:10px;background:#111}.widget-note{color:var(--muted);font-size:12px;margin:10px 2px 0}.section{padding:70px 0}.sectionhead{max-width:680px;margin-bottom:28px}.kicker{color:#8fdfff;text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:11px}.section h2{font-size:clamp(28px,4vw,42px);line-height:1.15;letter-spacing:-1px;margin:9px 0 12px}.sectionhead p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:23px;border-radius:19px;background:linear-gradient(145deg,#171b35cc,#101326cc);border:1px solid var(--line);transition:.22s transform,.22s border-color}.card:hover{transform:translateY(-4px);border-color:#7f6cff88}.ico{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#8157f433,#31c9ff25);font-size:22px}.card h3{margin:17px 0 7px}.card p{color:var(--muted);font-size:14px;margin:0}.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.channel{display:flex;align-items:center;gap:11px;padding:13px 15px;border-radius:12px;background:#ffffff05;border:1px solid var(--line);color:#e4e8ff}.hash{color:#7f8ba9;font-weight:900;font-size:18px}.tag{margin-left:auto;color:#9eaccc;font-size:10px}.botlabel{display:inline-block;margin-top:12px;color:#cabdff;font-size:11px;border:1px solid #8a69ff55;border-radius:7px;padding:4px 7px}.goal{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding:28px;border:1px solid #8e75ff55;border-radius:22px;background:linear-gradient(110deg,#5c40c51c,#16a5d31a)}.goal strong{font-size:28px}.goal p{margin:4px 0 0;color:var(--muted)}.progress{height:8px;background:#ffffff12;border-radius:99px;overflow:hidden;margin-top:15px}.progress span{display:block;width:0;height:100%;background:linear-gradient(90deg,var(--purple),var(--blue))}.rules{counter-reset:rule}.rule{display:flex;gap:13px;padding:15px 0;border-bottom:1px solid var(--line)}.rule:last-child{border-bottom:0}.rule b{color:#a895ff}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px}.footerin{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.muted{color:var(--muted)}.notice{font-size:12px;color:var(--muted);margin-top:13px}.fade{animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:55px;gap:30px}.grid{grid-template-columns:repeat(2,1fr)}.channels{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.hero{padding:45px 0}.hero h1{letter-spacing:-1.5px}.grid,.channels{grid-template-columns:1fr}.section{padding:48px 0}.widget{padding:9px}.widget iframe{height:420px}.mini-stats{gap:18px}.navin{height:66px}.brand{font-size:14px}.nav .btn{padding:10px 12px;font-size:12px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap navin">
+<a class="brand" href="#home"><span class="logo">✦</span><span>DISCORD <span class="gradient">COMMUNITY</span></span></a>
+<nav class="links"><a href="#features">Hoạt động</a><a href="#channels">Kênh cộng đồng</a><a href="#bots">Bot & tiện ích</a><a href="#rules">Nội quy</a></nav>
+<a class="btn" href="https://discord.gg/PMyWxzq6s" target="_blank" rel="noopener">Tham gia Discord ↗</a>
+</div></header>
+<main>
+<section class="wrap hero" id="home">
+<div class="fade">
+<div class="eyebrow"><span class="dot"></span> YOUR NEXT GAMING HUB</div>
+<h1>Chơi cùng nhau.<br><span class="gradient">Kết nối khác biệt.</span></h1>
+<p>Chào mừng đến với Discord Community — nơi bạn tìm đồng đội, tám chuyện, khám phá sự kiện và cùng xây dựng một cộng đồng game thủ thân thiện.</p>
+<div class="actions"><a class="btn" href="https://discord.gg/PMyWxzq6s" target="_blank" rel="noopener">🚀 Tham gia máy chủ</a><a class="btn ghost" href="#features">Khám phá cộng đồng ↓</a></div>
+<div class="mini-stats"><div><strong>24/7</strong><span>Kết nối cộng đồng</span></div><div><strong>300</strong><span>Mục tiêu thành viên</span></div><div><strong>∞</strong><span>Khoảnh khắc đáng nhớ</span></div></div>
+</div>
+<div class="visual fade">
+<div class="visualtop"><div><div class="muted" style="font-size:12px">COMMUNITY LIVE PANEL</div><strong style="font-size:20px">Máy chủ Discord</strong></div><span class="pill">● Widget nhúng</span></div>
+<div class="widget">
+<iframe src="https://discord.com/widget?id=1544344960843645100&theme=dark" title="Discord server widget" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<div class="widget-note">Dữ liệu do Discord Widget cung cấp. Nếu khung không tải được, hãy kiểm tra cài đặt Widget hoặc mở Discord trực tiếp.</div>
+</div>
+</div>
+</section>
+<section class="section" id="features"><div class="wrap">
+<div class="sectionhead"><div class="kicker">Inside the community</div><h2>Một server, nhiều cuộc vui.</h2><p>Từ những trận game căng thẳng đến các cuộc trò chuyện nhẹ nhàng, luôn có chỗ để bạn hòa nhập theo cách của mình.</p></div>
+<div class="grid">
+<article class="card"><div class="ico">🎮</div><h3>Gaming & tìm team</h3><p>Tìm đồng đội, rủ nhau vào trận và chia sẻ khoảnh khắc đáng nhớ sau mỗi game.</p></article>
+<article class="card"><div class="ico">💬</div><h3>Trò chuyện tự do</h3><p>Giao lưu, chia sẻ sở thích, âm nhạc và những câu chuyện thường ngày.</p></article>
+<article class="card"><div class="ico">🎉</div><h3>Sự kiện cộng đồng</h3><p>Theo dõi hoạt động, thử thách và các buổi tụ họp khi được ban quản trị công bố.</p></article>
+<article class="card"><div class="ico">🏆</div><h3>Competitive Teams</h3><p>Khu vực dành cho người thích phối hợp chiến thuật và chơi có tổ chức.</p></article>
+<article class="card"><div class="ico">🌙</div><h3>Chill & âm nhạc</h3><p>Ghé khu vực thư giãn để đổi không khí giữa những trận game.</p></article>
+<article class="card"><div class="ico">🛡️</div><h3>Cộng đồng văn minh</h3><p>Tôn trọng thành viên khác, giữ không gian thân thiện và báo cáo vấn đề khi cần.</p></article>
+</div></div></section>
+<section class="section" id="channels"><div class="wrap">
+<div class="sectionhead"><div class="kicker">Server map</div><h2>Các khu vực trong máy chủ</h2><p>Tên kênh dưới đây dựa trên dữ liệu xuất hiện trong ảnh API bạn gửi. Danh sách có thể thay đổi khi máy chủ được chỉnh sửa.</p></div>
+<div class="channels">
+<div class="channel"><span class="hash">#</span> Gaming <span class="tag">GAME</span></div>
+<div class="channel"><span class="hash">#</span> Sảnh <span class="tag">CHAT</span></div>
+<div class="channel"><span class="hash">#</span> Event Space <span class="tag">EVENT</span></div>
+<div class="channel"><span class="hash">#</span> Gaming Lobby <span class="tag">TEAM</span></div>
+<div class="channel"><span class="hash">#</span> Competitive Team 1 <span class="tag">TEAM</span></div>
+<div class="channel"><span class="hash">#</span> Competitive Team 2 <span class="tag">TEAM</span></div>
+<div class="channel"><span class="hash">#</span> Competitive Team 3 <span class="tag">TEAM</span></div>
+<div class="channel"><span class="hash">#</span> Music & Chill <span class="tag">CHILL</span></div>
+<div class="channel"><span class="hash">#</span> Tournament Room <span class="tag">EVENT</span></div>
+<div class="channel"><span class="hash">#</span> Premium Hangout <span class="tag">SOCIAL</span></div>
+<div class="channel"><span class="hash">#</span> VIP Lounge <span class="tag">SOCIAL</span></div>
+<div class="channel"><span class="hash">#</span> Casual Hangout <span class="tag">CHAT</span></div>
+<div class="channel"><span class="hash">#</span> Study & Work <span class="tag">FOCUS</span></div>
+<div class="channel"><span class="hash">#</span> Staff Room <span class="tag">STAFF</span></div>
+</div>
+</div></section>
+<section class="section" id="bots"><div class="wrap">
+<div class="sectionhead"><div class="kicker">Tools & community</div><h2>Bot và tiện ích</h2><p>Các tên dưới đây là khu vực giới thiệu dự kiến, không phải xác nhận rằng bot đã được cài vào server.</p></div>
+<div class="grid">
+<article class="card"><div class="ico">⚙️</div><h3>Auto Quest</h3><p>Ý tưởng cho tiện ích nhiệm vụ, nhắc hoạt động hoặc hỗ trợ trải nghiệm thành viên.</p><span class="botlabel">Đang giới thiệu · Chưa xác minh cài đặt</span></article>
+<article class="card"><div class="ico">💠</div><h3>HypeSquad</h3><p>Khu vực chủ đề cộng đồng, khuyến khích thành viên tham gia và kết nối với nhau.</p><span class="botlabel">Đang giới thiệu · Chưa xác minh cài đặt</span></article>
+<article class="card"><div class="ico">🤖</div><h3>More community bots</h3><p>Có thể bổ sung bot kiểm duyệt, chào mừng, thống kê hoặc âm nhạc khi được cấu hình.</p><span class="botlabel">Danh mục gợi ý</span></article>
+</div></div></section>
+<section class="section"><div class="wrap"><div class="goal"><div><div class="kicker">Community milestone</div><strong>Chinh phục mốc 300 thành viên</strong><p>Đây là mục tiêu cộng đồng, không phải số thành viên hiện tại.</p><div class="progress" aria-label="Tiến độ chưa có dữ liệu"><span></span></div><div class="notice">Tiến độ sẽ chỉ được hiển thị khi có số liệu thành viên xác thực.</div></div><a class="btn" href="https://discord.gg/PMyWxzq6s" target="_blank" rel="noopener">Cùng xây cộng đồng ↗</a></div></div></section>
+<section class="section" id="rules"><div class="wrap">
+<div class="sectionhead"><div class="kicker">Keep it friendly</div><h2>Nội quy cơ bản</h2><p>Một cộng đồng vui là nơi mọi người đều được tôn trọng.</p></div>
+<div class="card rules">
+<div class="rule"><b>01</b><div><strong>Tôn trọng nhau</strong><div class="muted">Không công kích, quấy rối hay phân biệt đối xử với thành viên khác.</div></div></div>
+<div class="rule"><b>02</b><div><strong>Đúng kênh, đúng chủ đề</strong><div class="muted">Giữ nội dung phù hợp với kênh để mọi người dễ theo dõi.</div></div></div>
+<div class="rule"><b>03</b><div><strong>Không spam hoặc quảng cáo trái phép</strong><div class="muted">Tránh spam tin nhắn, link đáng ngờ và nội dung làm phiền cộng đồng.</div></div></div>
+<div class="rule"><b>04</b><div><strong>Tuân thủ Discord Terms</strong><div class="muted">Làm theo Điều khoản dịch vụ và Hướng dẫn cộng đồng của Discord.</div></div></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><a class="brand" href="#home"><span class="logo">✦</span><span>DISCORD COMMUNITY</span></a><span>Thiết kế gaming neon tím xanh · Community first</span><a href="https://discord.gg/PMyWxzq6s" target="_blank" rel="noopener">discord.gg/PMyWxzq6s ↗</a></div></footer>
+<script>
+const observer = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.style.opacity=1;e.target.style.transform='translateY(0)';observer.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.card,.channel,.goal').forEach(el=>{el.style.opacity=0;el.style.transform='translateY(12px)';el.style.transition='opacity .5s ease,transform .5s ease';observer.observe(el)});
+</script>
+</body></html>
